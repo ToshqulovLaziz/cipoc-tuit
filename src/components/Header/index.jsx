@@ -8,7 +8,9 @@ const Header = () => {
         <div className="container max-w-full px-4 mx-auto">
           <div className="flex justify-between items-center py-2 max-[850px]:flex-col max-[850px]:pt-5">
             <div className="flex items-center gap-3 max-sm:flex-col">
-              <Link className="text-[24px] font-bold text-[#2b60c2]">ENERGYCONF</Link>
+              <Link className="text-[24px] font-bold text-[#2b60c2]">
+                CIPOC
+              </Link>
               <p className="text-[16px] max-lg:text-xs max-[850px]:text-[14px] max-sm:w-[70%] max-sm:text-center">
                 <span className="text-[#787474]">
                   The 14th International Conference on Intelligent Human

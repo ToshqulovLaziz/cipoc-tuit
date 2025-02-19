@@ -6,7 +6,7 @@ export const navbarMenuData = [
     },
     {
       id: 2,
-      text: "ABOUT ENERGYCONF",
+      text: "ABOUT CIPOC",
       selected: null,
     },
     {

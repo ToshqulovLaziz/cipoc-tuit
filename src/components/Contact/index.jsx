@@ -53,7 +53,7 @@ const ContactUs = () => {
               </a>
               |
               <a href="#" className="hover:underline pr-4">
-                ENERGYCONF 2025
+                CIPOC 2025
               </a>
             </p>
           </div>
