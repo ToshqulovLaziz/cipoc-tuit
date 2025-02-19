@@ -2,15 +2,19 @@ import { Link } from "react-router-dom";
 
 const AboutPage = () => {
   return (
-    <div className="container max-w-full px-4 mx-auto pt-4">
-      <div className="flex justify-between">
-        <h2 className="text-[26px] text-[#2a3aa6] font-bold">About CIPOC</h2>
-        <Link
-          className="border-2 py-2 px-3 border-[#334cf0] font-bold rounded-lg"
-          to="/"
-        >
-          Back to home
-        </Link>
+    <div className="container max-w-full px-4 mx-auto">
+      <div className="flex justify-between bg-universal w-full min-h-[200px] px-4 py-3">
+        <div className="flex justify-center items-center flex-col w-full text-center">
+          <h2 className="text-[26px] font-bold">
+            About CIPOC 2025
+          </h2>
+          <div>
+            <Link className="text-[#334cf0] font-bold" to="/">
+              HOME
+            </Link>
+            <span className="font-bold"> / About CIPOC</span>
+          </div>
+        </div>
       </div>
       <div className="max-w-6xl mx-auto p-6 bg-white">
         <h2 className="text-3xl font-bold text-center mb-6">

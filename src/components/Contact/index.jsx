@@ -5,7 +5,6 @@ const ContactUs = () => {
           <h2 className="text-xl font-bold text-[#222222]">Contact Us</h2>
           <hr className="border-t-4 border-[#5b5757] my-4" />
           <div className="flex justify-between gap-12 max-lg:flex-wrap  text-base">
-            {/* Local Contact Person */}
             <div className="w-full sm:w-1/3">
               <h3 className="font-bold text-[18px] mb-2">Local Contact Person:</h3>
               <p>Dr. Sarvar Makhmudjanov</p>
@@ -14,7 +13,6 @@ const ContactUs = () => {
               <p>Telegram: @Sarvartuit</p>
               <p>Email: s.makhmudjanov@gmail.com</p>
             </div>
-            {/* Local venue contact details */}
             <div className="w-full sm:w-1/3">
               <h3 className="font-bold text-[18px] mb-2">Local venue contact details:</h3>
               <p>Room #508, Block B, Department of Artificial Intelligence,</p>
@@ -27,10 +25,9 @@ const ContactUs = () => {
                 city Tashkent, Uzbekistan, 100084
               </p>
             </div>
-            {/* Organizing chair of IHCI society */}
             <div className="w-full sm:w-1/3">
               <h3 className="font-bold text-[18px] mb-2">
-                Organizing chair of IHCI society:
+                Organizing chair of CIPOC society:
               </h3>
               <p>Dr. Dhananjay Singh</p>
               <p>Phone: +82-10-5844-9415</p>

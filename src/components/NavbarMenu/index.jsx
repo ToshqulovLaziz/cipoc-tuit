@@ -1,15 +1,17 @@
 import Slider from "react-slick";
 import { useState } from "react";
+import { useLocation } from "react-router-dom"; // 🔥 useLocation qo'shildi
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { navbarMenuData } from "../../Utils/navbarMenuData";
-import Image1 from "../../assets/image1.jpg";
+import Image1 from "../../assets/video_2.jpg";
 import Image2 from "../../assets/tuit_slide_four.jpg";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 const NavbarMenu = () => {
+  const location = useLocation(); // 🔥 Hozirgi sahifa manzilini olish
   const settings = {
     dots: true,
     infinite: true,
@@ -107,24 +109,28 @@ const NavbarMenu = () => {
           ))}
         </ul>
       )}
-      <div>
-        <Slider {...settings}>
-          <div>
-            <img
-              src={Image1}
-              alt="Image 1"
-              className="w-full h-[500px] object-cover max-lg:h-[400px] max-md:h-[300px]"
-            />
-          </div>
-          <div>
-            <img
-              src={Image2}
-              alt="Image 2"
-              className="w-full h-[500px] object-cover max-lg:h-[400px] max-md:h-[300px]"
-            />
-          </div>
-        </Slider>
-      </div>
+
+      {/* 🔥 Slider faqat "/" sahifasida ko'rinadi */}
+      {location.pathname === "/" && (
+        <div>
+          <Slider {...settings}>
+            <div>
+              <img
+                src={Image1}
+                alt="Image 1"
+                className="w-full h-[500px] object-cover max-lg:h-[400px] max-md:h-[300px]"
+              />
+            </div>
+            <div>
+              <img
+                src={Image2}
+                alt="Image 2"
+                className="w-full h-[500px] object-cover max-lg:h-[400px] max-md:h-[300px]"
+              />
+            </div>
+          </Slider>
+        </div>
+      )}
     </div>
   );
 };
