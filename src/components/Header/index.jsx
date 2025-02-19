@@ -13,10 +13,10 @@ const Header = () => {
               </Link>
               <p className="text-[16px] max-lg:text-xs max-[850px]:text-[14px] max-sm:w-[70%] max-sm:text-center">
                 <span className="text-[#787474]">
-                  The 14th International Conference on Intelligent Human
-                  Computer Interaction (IHCI-2022)
+                  Digitization of Cinematography, Television, and State
+                  Authorities: Current Issues and Solutions (CIPOC-2025)
                 </span>{" "}
-                <br /> October 20th-22nd, 2022.{" "}
+                <br /> May 30th-31nd, 2025.{" "}
                 <span className="text-[#5331dc]">
                   Hybrid Event: In-person and Virtual
                 </span>{" "}
