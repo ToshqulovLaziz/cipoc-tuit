@@ -13,14 +13,10 @@ const Header = () => {
               </Link>
               <p className="text-[16px] max-lg:text-xs max-[850px]:text-[14px] max-sm:w-[70%] max-sm:text-center">
                 <span className="text-[#787474]">
-                  Digitization of Cinematography, Television, and State
-                  Authorities: Current Issues and Solutions (CIPOC-2025)
+                  Current Issues in Photonics and Optical Communication
+                  (CIPOC-2025)
                 </span>{" "}
-                <br /> May 30th-31nd, 2025.{" "}
-                <span className="text-[#5331dc]">
-                  Hybrid Event: In-person and Virtual
-                </span>{" "}
-                <br /> Tashkent, Uzbekistan
+                <br /> October 23th-24nd, 2025. <br /> Tashkent, Uzbekistan
               </p>
             </div>
             <div className="flex gap-2 items-center max-[850px]:pt-2 max-[850px]:gap-10">
