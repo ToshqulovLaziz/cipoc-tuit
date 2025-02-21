@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const places = [
+  {
+    name: "Amir Temur Square",
+    location: "Tashkent, Uzbekistan",
+    image: "https://live.staticflickr.com/65535/52364998882_dd2c3f9098_b.jpg",
+  },
   {
     name: "Registan Square",
     location: "Samarkand, Uzbekistan",
@@ -26,12 +32,12 @@ const TourPage = () => {
       <div className="container max-w-full px-4 mx-auto">
         <div className="flex justify-between bg-universal w-full min-h-[200px] px-4 py-3">
           <div className="flex justify-center items-center flex-col w-full text-center">
-            <h2 className="text-[26px] font-bold">TOUR</h2>
+            <h2 className="text-[26px] font-bold">TRAVEL</h2>
             <div>
               <Link className="text-[#334cf0] font-bold" to="/">
                 HOME
               </Link>
-              <span className="font-bold"> / TOUR</span>
+              <span className="font-bold"> / TRAVEL</span>
             </div>
           </div>
         </div>
@@ -59,6 +65,14 @@ const TourPage = () => {
               </div>
             ))}
           </div>
+          <motion.button
+            whileHover={{ scale: 1.1, backgroundPosition: "right center" }}
+            whileTap={{ scale: 0.95 }}
+            className="px-6 py-3 w-40 mx-auto block text-white font-semibold rounded-full bg-gradient-to-r from-blue-900 to-black hover:from-black hover:to-blue-900
+ transition-all duration-300 shadow-lg"
+          >
+            <Link to={"https://visittashkent.uz/en/"} target="_blank">Learn More</Link>
+          </motion.button>
         </div>
       </div>
     </div>

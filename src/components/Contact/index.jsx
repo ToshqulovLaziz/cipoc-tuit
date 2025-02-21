@@ -15,7 +15,7 @@ const ContactUs = () => {
             </div>
             <div className="w-full sm:w-1/3">
               <h3 className="font-bold text-[18px] mb-2">Local venue contact details:</h3>
-              <p>Room #508, Block B, Department of Artificial Intelligence,</p>
+              <p>Room #508, Block A, Department of Electronics and radio engineering,</p>
               <p>
                 Tashkent University of Information Technologies named after
                 Muhammad al-Khwarizmi (TUIT)
@@ -29,7 +29,7 @@ const ContactUs = () => {
               <h3 className="font-bold text-[18px] mb-2">
                 Organizing chair of CIPOC society:
               </h3>
-              <p>Dr. Dhananjay Singh</p>
+              <p>Dr. Ahmed Yusupov</p>
               <p>Phone: +82-10-5844-9415</p>
               <p>Office: +82-31-330-4731</p>
               <p>Email: dsingh@hufs.ac.kr</p>

@@ -12,7 +12,7 @@ const Header = () => {
                 CIPOC
               </Link>
               <p className="text-[16px] max-lg:text-xs max-[850px]:text-[14px] max-sm:w-[70%] max-sm:text-center">
-                <span className="text-[#787474]">
+                <span className="text-[#373535]">
                   Current Issues in Photonics and Optical Communication
                   (CIPOC-2025)
                 </span>{" "}

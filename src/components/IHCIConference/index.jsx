@@ -1,35 +1,17 @@
-import { Link } from "react-router-dom";
-
 const IHCIConference = () => {
   return (
-    <div className="pb-[50px]">
+    <div className="pb-[20px]">
       <div className="container max-w-full px-4 mx-auto">
-        <div className="mt-[40px]">
-          <p className="text-xl font-bold text-blue-500">
-            <Link
-              to="https://ihci.tuit.uz/fayllar/The_14th_International_Conference_on_Intelligent_Human_Big_brochure.pdf"
-              className="underline text-blue-500 hover:text-blue-700 ml-2 max-sm:text-[16px]"
-              target="_blank"
-            >
-              CIPOC-2025 Detailed Program Brochure (Download File)
-            </Link>
-          </p>
+        <div className="mt-[60px]">
           <hr className="border-t-4 border-[#5b5757] my-4" />
         </div>
-        <div className="text-center mb-6">
-          <h2 className="text-3xl mb-3 font-bold text-red-600  max-sm:text-[20px]">
-            CIPOC-2025: Conference proceedings in Springer Link
+        <div className="text-center">
+          <h2 className="text-3xl mt-10 font-bold text-red-600  max-sm:text-[20px]">
+            CIPOC-2025
           </h2>
-          <Link
-            href="https://link.springer.com/book/10.1007/978-3-031-27199-1"
-            className="text-blue-500 text-[20px] hover:underline max-sm:text-[14px]"
-            target="_blank"
-          >
-            https://link.springer.com/book/10.1007/978-3-031-27199-1
-          </Link>
         </div>
 
-        <div className="flex justify-between gap-10 max-lg:flex-col">
+        {/* <div className="flex justify-between gap-10 max-lg:flex-col">
           <div className="w-1/2 max-lg:w-[70%] max-md:w-full max-lg:mx-auto">
             <p className="text-justify text-[20px] text-gray-700 leading-relaxed">
               International Conference Actual Problems of Photonics and Optical
@@ -41,7 +23,6 @@ const IHCIConference = () => {
             </p>
           </div>
 
-          {/* Muhim Sanalar qismi */}
           <div className="w-1/2  max-lg:w-[70%] max-md:w-full max-lg:mx-auto bg-gray-100 border border-gray-300 rounded-lg p-4">
             <h3 className="text-lg font-bold text-center mb-4">
               IMPORTANT DATES
@@ -79,7 +60,7 @@ const IHCIConference = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

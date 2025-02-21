@@ -6,6 +6,10 @@ import ContactUs from "../components/Contact";
 import NavbarMenu from "../components/NavbarMenu";
 import Hotelapge from "../pages/HotelPage";
 import TourPage from "../pages/TourPage";
+import PaperSubmissionpage from "../pages/PaperSubmissionPage";
+import PastConferences from "../pages/PastConferences";
+import ProgramPage from "../pages/ProgramPage";
+import RegistrationPage from "../pages/RegistrationPage";
 
 const Root = () => {
   return (
@@ -15,6 +19,10 @@ const Root = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about-cipoc" element={<AboutPage />} />
+        <Route path="/paper-submission" element={<PaperSubmissionpage />} />
+        <Route path="/past-conferences" element={<PastConferences />} />
+        <Route path="/program" element={<ProgramPage />} />
+        <Route path="/registration" element={<RegistrationPage />} />
         <Route path="/hotel" element={<Hotelapge />} />
         <Route path="/tour" element={<TourPage />} />
       </Routes>
