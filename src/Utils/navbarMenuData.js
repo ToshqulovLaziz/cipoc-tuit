@@ -7,13 +7,13 @@ export const navbarMenuData = [
   },
   {
     id: 2,
-    text: "ABOUT CIPOC",
+    text: "ABOUT",
     link: "/about-cipoc",
     selected: null,
   },
   {
     id: 3,
-    text: "COMMITTEES",
+    text: "PAST CONFERENCES",
     selected: [
       { text: "Organizing Committee", link: "/organizing-committee" },
       { text: "Steering Committee", link: "/steering-committee" },
@@ -21,13 +21,12 @@ export const navbarMenuData = [
   },
   {
     id: 4,
-    text: "SUBMISSION",
+    text: "PAPER SUBMISSION",
     selected: [
       { text: "Call for Papers", link: "/call-for-papers" },
-      { text: "Call for Sponsors", link: "call-for-sponsors" },
+      // { text: "Call for Sponsors", link: "call-for-sponsors" },
       { text: "Special Sessions", link: "/special-sessions" },
       { text: "Call for Speakers", link: "/call-for-speakers" },
-      { text: "Call for Workshop", link: "/call-for-workshop" },
       { text: "Call for Tutorial", link: "/call-for-tutorial" },
     ],
   },
@@ -39,8 +38,6 @@ export const navbarMenuData = [
       { text: "Important Dates", link: "/important-dates" },
       { text: "Plenary & Keynote Speakers", link: "/plenary-keynote-speakers" },
       { text: "Invited Speakers", link: "/invited-speakers" },
-      { text: "Forum", link: "/forum" },
-      { text: "Workshop", link: "/workshop" },
       { text: "Tutorial", link: "/tutorial" },
     ],
   },
@@ -54,7 +51,7 @@ export const navbarMenuData = [
   },
   {
     id: 7,
-    text: "HOTEL/TRAVEL",
+    text: "VENUE/TRAVEL",
     selected: [
       { text: "Hotel", link: "/hotel" },
       { text: "Tour", link: "/tour" },

@@ -58,7 +58,7 @@ const NavbarMenu = () => {
                       key={subIndex}
                       className="py-2 px-4 border-b-2 border-[#FFFFF7] hover:bg-[#1A9E06] text-xs"
                     >
-                      <Link to={subItem.link} className="block">
+                      <Link to={subItem.link} className="block" onClick={() => toggleDropdown(item.id)}>
                         {subItem.text}
                       </Link>
                     </li>
