@@ -21,7 +21,7 @@ const PastConferences = () => {
           rel="noopener noreferrer"
           className="text-blue-600 hover:underline text-lg block"
         >
-          View all proceedings of the PAIOC 22025
+          View all proceedings of the OPTIMA 2025
         </Link>
         <p
           rel="noopener noreferrer"

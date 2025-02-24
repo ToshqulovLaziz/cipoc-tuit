@@ -10,6 +10,7 @@ import PaperSubmissionpage from "../pages/PaperSubmissionPage";
 import PastConferences from "../pages/PastConferences";
 import ProgramPage from "../pages/ProgramPage";
 import RegistrationPage from "../pages/RegistrationPage";
+import CallForPapersPage from "../pages/CallForPapersPage";
 
 const Root = () => {
   return (
@@ -20,6 +21,7 @@ const Root = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/about-cipoc" element={<AboutPage />} />
         <Route path="/paper-submission" element={<PaperSubmissionpage />} />
+        <Route path="/call-for-papers" element={<CallForPapersPage />} />
         <Route path="/past-conferences" element={<PastConferences />} />
         <Route path="/program" element={<ProgramPage />} />
         <Route path="/registration" element={<RegistrationPage />} />

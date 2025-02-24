@@ -7,7 +7,7 @@ const IHCIConference = () => {
         </div>
         <div className="text-center">
           <h2 className="text-3xl mt-10 font-bold text-red-600  max-sm:text-[20px]">
-            CIPOC-2025
+            OPTIMA-2025
           </h2>
         </div>
 

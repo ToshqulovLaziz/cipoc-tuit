@@ -24,13 +24,13 @@ export const navbarMenuData = [
     id: 4,
     text: "PAPER SUBMISSION",
     link: "/paper-submission",
-    // selected: [
-    //   { text: "Call for Papers", link: "/call-for-papers" },
+    selected: [
+       { text: "Call for Papers", link: "/call-for-papers" },
     //   // { text: "Call for Sponsors", link: "call-for-sponsors" },
     //   { text: "Special Sessions", link: "/special-sessions" },
     //   { text: "Call for Speakers", link: "/call-for-speakers" },
     //   { text: "Call for Tutorial", link: "/call-for-tutorial" },
-    // ],
+     ],
   },
   {
     id: 5,

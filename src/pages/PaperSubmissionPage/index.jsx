@@ -15,15 +15,17 @@ const PaperSubmissionpage = () => {
       </div>
       <p className="text-center text-lg text-gray-600 mt-4">
         Authors are invited to submit original, unpublished research papers for
-        presentation at the International Conference on Photonics, AI, and
-        Optical Communications (PAIOC 2025).
+        presentation at the International Conference on Optical Communication, Photonics, Telecommunications, and Intelligent Machine Applications (OPTIMA 2025).
       </p>
 
       <div className="mt-6 border-t pt-6">
         <h2 className="text-2xl font-semibold text-gray-800">
           Submission Guidelines
         </h2>
-        <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
+        <p>
+        The International Conference on Optical Communication, Photonics, Telecommunications, and Intelligent Machine Applications (OPTIMA 2025) invites authors to submit original, high-quality research papers through the Microsoft CMT (Conference Management Toolkit) system.
+        </p>
+        {/* <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
           <li>
             Papers must be written in English and formatted according to the
             IEEE conference template.
@@ -40,64 +42,94 @@ const PaperSubmissionpage = () => {
             Authors should ensure that their submissions do not contain any form
             of plagiarism and comply with ethical publication standards.
           </li>
-        </ul>
+        </ul> */}
       </div>
 
       <div className="mt-8 bg-gray-100 p-6 rounded-lg">
         <h2 className="text-2xl font-semibold text-gray-800">
           Submission System
         </h2>
-        <p className="text-gray-700 text-lg mt-4">
-          All papers should be submitted via the EasyChair platform. The
-          submission link will be available on the conference website.
-        </p>
+           <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
+           <li>
+           Submit your paper via Microsoft CMT:  [Insert Registration Link]:{" "}
+            <a href="#" className="text-blue-600 underline">
+              [Registration Link]
+            </a>
+          </li>
+          <li>
+          New Users: Authors must create a CMT account before submission.
+          </li>
+          <li>
+          Existing Users: Log in to CMT, select OPTIMA 2025, and upload your paper.
+          </li>
+        </ul>
       </div>
 
       <div className="mt-8">
         <h2 className="text-2xl font-semibold text-gray-800">Review Process</h2>
-        <p className="text-gray-700 text-lg mt-4">
-          Each paper will be double-blind peer-reviewed by at least two
-          independent reviewers. Acceptance will be based on originality,
-          technical quality, clarity, and relevance to the conference themes.
-          The review process is strictly anonymous; therefore, authors must
-          remove personal details from the manuscript.
-        </p>
+        <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
+          <li>
+          Double-Blind Peer Review: Submissions will undergo a rigorous review process by at least two independent reviewers.
+          </li>
+          <li>
+          Evaluation Criteria: Papers will be judged based on:
+          </li>
+          <li>
+          Technical quality and originality
+          </li>
+          <li>
+          Relevance to conference themes
+          </li>
+          <li>
+          Clarity of presentation
+          </li>
+          <li>
+          Experimental validation (if applicable)
+          </li>
+          <li>
+          Plagiarism Policy: Papers must have less than 20% similarity index (checked via IEEE CrossCheck).
+          </li>
+        </ul>
       </div>
 
       <div className="mt-8">
-        <h2 className="text-2xl font-semibold text-gray-800">
-          Important Dates
-        </h2>
-        <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="bg-blue-100 p-4 rounded-lg">
-            <p className="text-lg font-medium text-gray-800">
-              📌 Paper Submission Deadline:
-            </p>
-            <p className="text-gray-700">15 August 2025</p>
-          </div>
-          <div className="bg-blue-100 p-4 rounded-lg">
-            <p className="text-lg font-medium text-gray-800">
-              📢 Notification of Acceptance:
-            </p>
-            <p className="text-gray-700">30 September 2025</p>
-          </div>
-          <div className="bg-blue-100 p-4 rounded-lg">
-            <p className="text-lg font-medium text-gray-800">
-              📅 Conference Dates:
-            </p>
-            <p className="text-gray-700">4-5 December 2025</p>
-          </div>
-        </div>
+      <h3 className="text-xl font-semibold text-gray-800 mb-4">
+        Important Dates for OPTIMA 2025
+        </h3>
+        <ul className="text-gray-700 space-y-2">
+          <li>
+           <strong> Paper Submission Deadline:</strong> August 15, 2025
+          </li>
+          <li>
+           <strong>Notification of Acceptance: </strong> September 30, 2025
+          </li>
+          <li>
+           <strong>Camera-Ready Paper Submission:</strong> October 20, 2025
+          </li>
+          <li>
+           <strong>Early Bird Registration Deadline:</strong> October 30, 2025
+          </li>
+          <li>
+            <strong>Final Registration Deadline: </strong> November 15, 2025
+          </li>
+          <li>
+           <strong>Conference Dates: </strong> December 4–5, 2025
+          </li>
+        </ul>
       </div>
 
       <div className="mt-8">
         <h2 className="text-2xl font-semibold text-gray-800">
           Publication and Indexing
         </h2>
-        <p className="text-gray-700 text-lg mt-4">
-          Accepted and presented papers will be published in the IEEE Xplore
-          Digital Library and indexed in Scopus and Web of Science.
-        </p>
+        <ul>
+          <li>
+          Accepted papers will be published in IEEE Xplore and indexed in Scopus, Web of Science, and other major databases.
+          </li>
+          <li>
+          At least one author must register and present the paper at the conference for inclusion in the proceedings.
+          </li>
+        </ul>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 const ContactUs = () => {
     return (
-      <div className="bg-white pt-12 pb-6">
+      <footer className="bg-white pt-12 pb-6">
         <div className="container mx-auto px-4">
           <h2 className="text-xl font-bold text-[#222222]">Contact Us</h2>
           <hr className="border-t-4 border-[#5b5757] my-4" />
@@ -27,12 +27,12 @@ const ContactUs = () => {
             </div>
             <div className="w-full sm:w-1/3">
               <h3 className="font-bold text-[18px] mb-2">
-                Organizing chair of CIPOC society:
+                Organizing chair of OPTIMA society:
               </h3>
               <p>Dr. Ahmed Yusupov</p>
               <p>Phone: +82-10-5844-9415</p>
               <p>Office: +82-31-330-4731</p>
-              <p>Email: dsingh@hufs.ac.kr</p>
+              <p>Email: optima@hufs.ac.kr</p>
             </div>
           </div>
           <div className="mt-8 text-gray-600 text-[14px]">
@@ -50,12 +50,12 @@ const ContactUs = () => {
               </a>
               |
               <a href="#" className="hover:underline pr-4">
-                CIPOC 2025
+                OPTIMA 2025
               </a>
             </p>
           </div>
         </div>
-      </div>
+      </footer>
     );
   };
   

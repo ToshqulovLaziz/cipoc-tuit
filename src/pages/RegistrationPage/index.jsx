@@ -31,17 +31,26 @@ const RegistrationPage = () => {
         transition={{ duration: 0.6 }}
       >
         <h3 className="text-xl font-semibold text-gray-800 mb-4">
-          Important Dates
+        Important Dates for OPTIMA 2025
         </h3>
         <ul className="text-gray-700 space-y-2">
           <li>
-            📅 <strong>Early Bird Registration Deadline:</strong> 1/08/2025
+           <strong> Paper Submission Deadline:</strong> August 15, 2025
           </li>
           <li>
-            📅 <strong>Regular Registration Deadline:</strong> 15/09/2025
+           <strong>Notification of Acceptance: </strong> September 30, 2025
           </li>
           <li>
-            📅 <strong>Late Registration Deadline:</strong> 30/10/2025
+           <strong>Camera-Ready Paper Submission:</strong> October 20, 2025
+          </li>
+          <li>
+           <strong>Early Bird Registration Deadline:</strong> October 30, 2025
+          </li>
+          <li>
+            <strong>Final Registration Deadline: </strong> November 15, 2025
+          </li>
+          <li>
+           <strong>Conference Dates: </strong> December 4–5, 2025
           </li>
         </ul>
       </motion.div>
@@ -54,52 +63,79 @@ const RegistrationPage = () => {
         transition={{ duration: 0.7 }}
       >
         <h3 className="text-xl font-semibold text-gray-800 mb-4">
-          Registration Fees
+        Registration Fees – OPTIMA 2025
+        (All fees are subject to 12% VAT)
         </h3>
         <div className="overflow-x-auto">
           <table className="w-full border-collapse border border-gray-300 text-left">
             <thead className="bg-blue-600 text-white">
               <tr>
                 <th className="border border-gray-300 px-4 py-2">Category</th>
-                <th className="border border-gray-300 px-4 py-2">Early Bird</th>
-                <th className="border border-gray-300 px-4 py-2">Regular</th>
+                <th className="border border-gray-300 px-4 py-2">Standard Fee (USD)</th>
+                <th className="border border-gray-300 px-4 py-2">IEEE Members (20% Discount)</th>
+                <th className="border border-gray-300 px-4 py-2">Final Fee with 12% VAT</th>
                 <th className="border border-gray-300 px-4 py-2">
-                  Late/On-site
+                IEEE Member Fee with 12% VAT
                 </th>
               </tr>
             </thead>
             <tbody className="bg-gray-50 text-gray-800">
               <tr>
                 <td className="border border-gray-300 px-4 py-2">
-                  Regular Participant
+                Academicians
                 </td>
-                <td className="border border-gray-300 px-4 py-2">$XXX</td>
-                <td className="border border-gray-300 px-4 py-2">$XXX</td>
-                <td className="border border-gray-300 px-4 py-2">$XXX</td>
+                <td className="border border-gray-300 px-4 py-2">$100</td>
+                <td className="border border-gray-300 px-4 py-2">$80</td>
+                <td className="border border-gray-300 px-4 py-2">	$112</td>
+                <td className="border border-gray-300 px-4 py-2">$89.60</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-2">
-                  IEEE/OSA/SPIE Member
+                Participants from Developed Countries
                 </td>
-                <td className="border border-gray-300 px-4 py-2">$XXX</td>
-                <td className="border border-gray-300 px-4 py-2">$XXX</td>
-                <td className="border border-gray-300 px-4 py-2">$XXX</td>
+                <td className="border border-gray-300 px-4 py-2">$150</td>
+                <td className="border border-gray-300 px-4 py-2">$120</td>
+                <td className="border border-gray-300 px-4 py-2">$168</td>
+                <td className="border border-gray-300 px-4 py-2">$134.40</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 px-4 py-2">
-                  Accompanying Person
+                Ph.D. Scholars
                 </td>
-                <td className="border border-gray-300 px-4 py-2">$XXX</td>
-                <td className="border border-gray-300 px-4 py-2">$XXX</td>
-                <td className="border border-gray-300 px-4 py-2">$XXX</td>
+                <td className="border border-gray-300 px-4 py-2">$80</td>
+                <td className="border border-gray-300 px-4 py-2">$64</td>
+                <td className="border border-gray-300 px-4 py-2">$89.60</td>
+                <td className="border border-gray-300 px-4 py-2">$71.68</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 px-4 py-2">
+                Bachelor's / Master's Students
+                </td>
+                <td className="border border-gray-300 px-4 py-2">$70</td>
+                <td className="border border-gray-300 px-4 py-2">$56</td>
+                <td className="border border-gray-300 px-4 py-2">$78.40</td>
+                <td className="border border-gray-300 px-4 py-2">$62.72</td>
               </tr>
             </tbody>
           </table>
         </div>
         <p className="text-gray-600 text-sm mt-3">
-          <strong>Note:</strong> The fee includes access to all conference
-          sessions, materials, coffee breaks, and welcome reception. Banquet
-          dinner & workshops may require extra payment.
+          <strong>Additional Notes:</strong> 
+
+          <ol className="list-decimal list-inside space-y-2 text-gray-700">
+          <li> IEEE Members: 20% discount on base registration fee (Valid IEEE Membership ID required).</li>
+          <li>12% VAT: Applied to all fees as per regulations.</li>
+          <li>Early Bird Discount: Register before October 30, 2025, for additional benefits.</li>
+          <li>Group Discounts: Available for institutions with 5 or more paper submissions (Contact us for details).</li>
+          <li>Payment Methods: [Insert payment details – Online payment, Bank transfer, etc.]</li>
+          <li>Refund Policy: [Insert details if applicable].</li>
+          <li>
+          Register Now: [Insert Registration Link]:{" "}
+            <a href="#" className="text-blue-600 underline">
+              [Registration Link]
+            </a>
+          </li>
+        </ol>
         </p>
       </motion.div>
 
@@ -115,15 +151,15 @@ const RegistrationPage = () => {
         </h3>
         <ol className="list-decimal list-inside space-y-2 text-gray-700">
           <li>
-            📝 Fill out the online registration form:{" "}
+           Fill out the online registration form:{" "}
             <a href="#" className="text-blue-600 underline">
               [Registration Link]
             </a>
           </li>
-          <li>💳 Make the payment via credit card/bank transfer.</li>
-          <li>📤 Upload the payment confirmation.</li>
+          <li> Make the payment via credit card/bank transfer.</li>
+          <li> Upload the payment confirmation.</li>
           <li>
-            📩 Receive a confirmation email with your registration details.
+             Receive a confirmation email with your registration details.
           </li>
         </ol>
       </motion.div>
@@ -135,31 +171,31 @@ const RegistrationPage = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9 }}
       >
-        <h3 className="text-xl font-semibold text-gray-800 mb-4">
+        {/* <h3 className="text-xl font-semibold text-gray-800 mb-4">
           Payment Information
         </h3>
         <div className="space-y-3 text-gray-700">
           <p>
-            <strong>💰 Bank Transfer Details:</strong>
+            <strong> Bank Transfer Details:</strong>
           </p>
           <p>
-            🏦 Bank Name: <span className="font-semibold">[Bank Name]</span>
+             Bank Name: <span className="font-semibold">[Bank Name]</span>
           </p>
           <p>
-            🔢 Account Number:{" "}
+             Account Number:{" "}
             <span className="font-semibold">[Account Number]</span>
           </p>
           <p>
-            🌍 SWIFT Code: <span className="font-semibold">[SWIFT Code]</span>
+             SWIFT Code: <span className="font-semibold">[SWIFT Code]</span>
           </p>
           <p>
-            👤 Beneficiary: <span className="font-semibold">[Beneficiary]</span>
+             Beneficiary: <span className="font-semibold">[Beneficiary]</span>
           </p>
-          <p>📌 Reference: &quot;PAIOC 2025………………….&quot;</p>
+          <p> Reference: &quot;OPTIMA 2025………………….&quot;</p>
         </div>
         <div className="mt-6">
           <p className="text-gray-700">
-            <strong>💳 Credit Card Payments:</strong> Available via our secure
+            <strong> Credit Card Payments:</strong> Available via our secure
             payment gateway.
           </p>
           <p className="text-gray-700">
@@ -169,7 +205,7 @@ const RegistrationPage = () => {
             </span>
             .
           </p>
-        </div>
+        </div> */}
       </motion.div>
     </div>
   );
