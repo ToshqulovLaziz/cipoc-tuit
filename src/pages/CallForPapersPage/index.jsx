@@ -4,7 +4,9 @@ const CallForPapersPage = () => {
     <div className="container max-w-4xl mx-auto px-4 pb-10">
       <div className="flex justify-between bg-universal w-full min-h-[200px] px-4 py-3">
         <div className="flex justify-center items-center flex-col w-full text-center">
-          <h2 className="text-[26px] font-bold">Call for Papers – OPTIMA 2025</h2>
+          <h2 className="text-[26px] font-bold">
+            Call for Papers – OPTIMA 2025
+          </h2>
           <div>
             <Link className="text-[#334cf0] font-bold" to="/">
               HOME
@@ -14,15 +16,9 @@ const CallForPapersPage = () => {
         </div>
       </div>
       <div className="pt-10">
-        <p className=" text-gray-600 mt-2">
-          📅 Date: [Insert Conference Date]
-        </p>
-        <p className=" text-gray-600">
-          📍 Venue: [Insert Conference Venue]
-        </p>
-        <p className=" text-gray-600">
-          🌐 Website: [Insert Conference Website]
-        </p>
+        <p className=" text-gray-600 mt-2">Date: [Insert Conference Date]</p>
+        <p className=" text-gray-600">Venue: [Insert Conference Venue]</p>
+        <p className=" text-gray-600">Website: [Insert Conference Website]</p>
 
         <div className="mt-6">
           <h2 className="text-2xl font-semibold text-gray-700">
@@ -63,18 +59,18 @@ const CallForPapersPage = () => {
           </h2>
           <ul className="list-disc list-inside text-gray-600 mt-2">
             <li>
-              📌 Paper Length: Full papers (4-6 pages), including references and
+              Paper Length: Full papers (4-6 pages), including references and
               figures.
             </li>
-            <li>📌 Format: IEEE Conference Template (PDF & Word).</li>
-            <li>📌 Submission Link: [Insert Submission Portal]</li>
+            <li>Format: IEEE Conference Template (PDF & Word).</li>
+            <li>Submission Link: [Insert Submission Portal]</li>
             <li>
-              📌 Peer Review: All submissions will undergo a double-blind peer
+              Peer Review: All submissions will undergo a double-blind peer
               review.
             </li>
             <li>
-              📌 Publication: Accepted papers will be included in IEEE Xplore
-              and indexed in major databases.
+              Publication: Accepted papers will be included in IEEE Xplore and
+              indexed in major databases.
             </li>
           </ul>
         </div>
