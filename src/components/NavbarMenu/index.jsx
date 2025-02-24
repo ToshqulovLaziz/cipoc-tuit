@@ -44,21 +44,17 @@ const NavbarMenu = () => {
                   : ""
               } group`}
             >
-              <Link
-                to={item.link}
-                className="dropdown-toggle"
-                onClick={() => toggleDropdown(item.id)}
-              >
+              <Link to={item.link} className="dropdown-toggle">
                 {item.text}
               </Link>
-              {item.selected && activeDropdown === item.id && (
-                <ul className="absolute left-[-40px] mt-[2px] top-full w-[150px] bg-[#1CAF07] text-[#FFFFF7] shadow-md z-10">
+              {item.selected && (
+                <ul className="absolute left-[-40px] mt-[2px] top-full w-[150px] bg-[#1CAF07] text-[#FFFFF7] shadow-md z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
                   {item.selected.map((subItem, subIndex) => (
                     <li
                       key={subIndex}
                       className="py-2 px-4 border-b-2 border-[#FFFFF7] hover:bg-[#1A9E06] text-xs"
                     >
-                      <Link to={subItem.link} className="block" onClick={() => toggleDropdown(item.id)}>
+                      <Link to={subItem.link} className="block">
                         {subItem.text}
                       </Link>
                     </li>
@@ -68,6 +64,7 @@ const NavbarMenu = () => {
             </li>
           ))}
         </ul>
+
         <button
           className="lg:hidden ml-auto p-2 float-end font-bold text-[30px] text-[#FFF] rounded"
           onClick={() => setIsMenuOpen(!isMenuOpen)}

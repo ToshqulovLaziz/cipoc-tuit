@@ -16,9 +16,9 @@ const CallForPapersPage = () => {
         </div>
       </div>
       <div className="pt-10">
-        <p className=" text-gray-600 mt-2">Date: [Insert Conference Date]</p>
-        <p className=" text-gray-600">Venue: [Insert Conference Venue]</p>
-        <p className=" text-gray-600">Website: [Insert Conference Website]</p>
+        <p className=" text-gray-600 mt-2">Date: 4-5 December 2025</p>
+        <p className=" text-gray-600">Venue: Tashkent, Uzbekistan</p>
+        <p className=" text-gray-600">Website: https://optima2025.tuit.uz</p>
 
         <div className="mt-6">
           <h2 className="text-2xl font-semibold text-gray-700">
