@@ -15,7 +15,7 @@ const ContactUs = () => {
             </div>
             <div className="w-full sm:w-1/3">
               <h3 className="font-bold text-[18px] mb-2">Local venue contact details:</h3>
-              <p>Room #508, Block A, Department of Electronics and radio engineering,</p>
+              <p>Block E, TUIT INCUBATION CENTER,</p>
               <p>
                 Tashkent University of Information Technologies named after
                 Muhammad al-Khwarizmi (TUIT)
@@ -27,12 +27,12 @@ const ContactUs = () => {
             </div>
             <div className="w-full sm:w-1/3">
               <h3 className="font-bold text-[18px] mb-2">
-                Organizing chair of OPTIMA society:
+                Organizing chair of OPTIMA:
               </h3>
               <p>Dr. Ahmed Yusupov</p>
-              <p>Phone: +82-10-5844-9415</p>
-              <p>Office: +82-31-330-4731</p>
-              <p>Email: optima@hufs.ac.kr</p>
+              <p>Phone: +998 99 866-45-06</p>
+              <p>Office: +998 71 238-65-87</p>
+              <p>Email: a.yusupov@tuit.uz</p>
             </div>
           </div>
           <div className="mt-8 text-gray-600 text-[14px]">

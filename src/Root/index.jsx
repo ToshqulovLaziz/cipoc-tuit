@@ -22,7 +22,7 @@ const Root = () => {
         <Route path="/about-cipoc" element={<AboutPage />} />
         <Route path="/paper-submission" element={<PaperSubmissionpage />} />
         <Route path="/call-for-papers" element={<CallForPapersPage />} />
-        <Route path="/past-conferences" element={<PastConferences />} />
+        <Route path="/organization-committtee" element={<PastConferences />} />
         <Route path="/program" element={<ProgramPage />} />
         <Route path="/registration" element={<RegistrationPage />} />
         <Route path="/hotel" element={<Hotelapge />} />

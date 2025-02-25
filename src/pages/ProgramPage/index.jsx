@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const ProgramPage = () => {
@@ -16,8 +16,7 @@ const ProgramPage = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
-        {/* Topics */}
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
         <motion.div
           className="bg-gradient-to-r from-blue-500 to-blue-700 text-white p-6 rounded-2xl shadow-lg transition-transform hover:scale-[1.02] cursor-pointer"
           initial={{ opacity: 0, y: 20 }}
@@ -35,8 +34,6 @@ const ProgramPage = () => {
             </motion.button>
           </Link>
         </motion.div>
-
-        {/* Plenary Speakers */}
         <motion.div
           className="bg-gray-100 p-6 rounded-2xl shadow-md hover:shadow-xl transition-transform hover:scale-[1.02]"
           initial={{ opacity: 0, y: 20 }}
@@ -46,8 +43,6 @@ const ProgramPage = () => {
           <h2 className="text-xl font-semibold text-gray-800">PLENARY SPEAKERS</h2>
           <p className="text-gray-600">Information will be provided in May 2025.</p>
         </motion.div>
-
-        {/* Special Symposium */}
         <motion.div
           className="bg-gray-100 p-6 rounded-2xl shadow-md hover:shadow-xl transition-transform hover:scale-[1.02]"
           initial={{ opacity: 0, y: 20 }}
@@ -57,8 +52,6 @@ const ProgramPage = () => {
           <h2 className="text-xl font-semibold text-gray-800">Tutorial Speakers</h2>
           <p className="text-gray-600">Information will be provided in June 2025.</p>
         </motion.div>
-
-        {/* Special Symposium */}
         <motion.div
           className="bg-gray-100 p-6 rounded-2xl shadow-md hover:shadow-xl transition-transform hover:scale-[1.02]"
           initial={{ opacity: 0, y: 20 }}
@@ -68,8 +61,6 @@ const ProgramPage = () => {
           <h2 className="text-xl font-semibold text-gray-800">Invited Speakers</h2>
           <p className="text-gray-600">Information will be provided in June 2025.</p>
         </motion.div>
-
-        {/* Sunday Program */}
         <motion.div
           className="bg-gray-100 p-6 rounded-2xl shadow-md hover:shadow-xl transition-transform hover:scale-[1.02]"
           initial={{ opacity: 0, y: 20 }}
@@ -79,6 +70,9 @@ const ProgramPage = () => {
           <h2 className="text-xl font-semibold text-gray-800">SUNDAY PROGRAM</h2>
           <p className="text-gray-600">Coming soon.</p>
         </motion.div>
+      </div> */}
+      <div>
+        <p className="pt-6 text-[24px] font-bold text-red-600">This page will be updated soon</p>
       </div>
     </div>
   );

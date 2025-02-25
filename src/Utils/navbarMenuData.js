@@ -13,8 +13,8 @@ export const navbarMenuData = [
   },
   {
     id: 3,
-    text: "PAST CONFERENCES",
-    link: "/past-conferences",
+    text: "ORGANIZING COMMITTEE",
+    link: "/organization-committtee",
     // selected: [
     //   { text: "Organizing Committee", link: "/organizing-committee" },
     //   { text: "Steering Committee", link: "/steering-committee" },

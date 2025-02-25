@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Scopus from "../../assets/Scopus.webp";
 import TatuLogo from "../../assets/TATU_logotip.png";
 const Header = () => {
   return (
@@ -21,12 +20,7 @@ const Header = () => {
             <img
               src={TatuLogo}
               alt="Tatu Logo"
-              className="w-20 sm:w-24 h-auto object-contain"
-            />
-            <img
-              src={Scopus}
-              alt="Scopus Logo"
-              className="w-32 sm:w-40 h-auto object-contain"
+              className="w-20 sm:w-28 h-auto object-contain"
             />
           </div>
         </div>
