@@ -22,10 +22,10 @@ export const navbarMenuData = [
   },
   {
     id: 4,
-    text: "PAPER SUBMISSION",
-    link: "/paper-submission",
+    text: "SUBMISSION",
     selected: [
-       { text: "Call for Papers", link: "/call-for-papers" },
+      { text: "Paper submission", link: "/paper-submission" },
+       { text: "Call for Papers", link: "/call-for-papers" },   
     //   // { text: "Call for Sponsors", link: "call-for-sponsors" },
     //   { text: "Special Sessions", link: "/special-sessions" },
     //   { text: "Call for Speakers", link: "/call-for-speakers" },
@@ -48,6 +48,15 @@ export const navbarMenuData = [
     id: 6,
     text: "REGISTRATION",
     link: "/registration",
+    // selected: [
+    //   { text: "Visa Letter Request", link: "/visa-letter-request" },
+    //   { text: "Awards", link: "/awards" },
+    // ],
+  },
+  {
+    id: 6,
+    text: "CONTACT",
+    link: "/contact",
     // selected: [
     //   { text: "Visa Letter Request", link: "/visa-letter-request" },
     //   { text: "Awards", link: "/awards" },

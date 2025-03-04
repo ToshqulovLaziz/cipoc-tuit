@@ -11,6 +11,7 @@ import PastConferences from "../pages/PastConferences";
 import ProgramPage from "../pages/ProgramPage";
 import RegistrationPage from "../pages/RegistrationPage";
 import CallForPapersPage from "../pages/CallForPapersPage";
+import ContactPage from "../pages/ContactPage";
 
 const Root = () => {
   return (
@@ -27,6 +28,7 @@ const Root = () => {
         <Route path="/registration" element={<RegistrationPage />} />
         <Route path="/hotel" element={<Hotelapge />} />
         <Route path="/tour" element={<TourPage />} />
+        <Route path="/contact" element={<ContactPage/>}/>
       </Routes>
       <ContactUs />
     </>

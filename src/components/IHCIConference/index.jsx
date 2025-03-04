@@ -6,7 +6,7 @@ const IHCIConference = () => {
           <hr className="border-t-4 border-[#5b5757] my-4" />
         </div>
         <div className="text-center">
-          <h2 className="text-3xl mt-10 font-bold text-red-600  max-sm:text-[20px]">
+          <h2 className="text-3xl mt-10 font-bold text-blue-600  max-sm:text-[20px]">
             OPTIMA-2025
           </h2>
         </div>
