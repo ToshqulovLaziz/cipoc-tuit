@@ -50,7 +50,7 @@ const NavbarMenu = () => {
                     {item.text}
                   </Link>
                   {item.selected && hoverDropdown === item.id && (
-                      <div className="absolute left-[-40px] mt-2 w-[170px] bg-white rounded-xl shadow-lg py-2 z-50">
+                      <div className="absolute left-[-37px] mt-2 w-[170px] bg-white shadow-lg py-2 z-50">
                         <ul className="flex flex-col">
                           {item.selected.map((subItem, subIndex) => (
                               <li key={subIndex}>
