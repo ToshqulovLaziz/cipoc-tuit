@@ -108,20 +108,20 @@ const NavbarMenu = () => {
         )}
 
         {location.pathname === "/" && (
-            <div className="mt-4">
+            <div className="">
               <Slider {...settings}>
                 <div>
                   <img
                       src={Image1}
                       alt="Slide 1"
-                      className="w-full h-[500px] object-cover max-lg:h-[400px] max-md:h-[300px] rounded-lg"
+                      className="w-full h-[500px] object-cover max-lg:h-[400px] max-md:h-[300px]"
                   />
                 </div>
                 <div>
                   <img
                       src={Image2}
                       alt="Slide 2"
-                      className="w-full h-[500px] object-cover max-lg:h-[400px] max-md:h-[300px] rounded-lg"
+                      className="w-full h-[500px] object-cover max-lg:h-[400px] max-md:h-[300px]"
                   />
                 </div>
               </Slider>
